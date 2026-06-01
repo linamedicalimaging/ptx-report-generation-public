@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# Restricted or large data
+data/
+images/
+test_images/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Results that may contain restricted report text
+results/
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
