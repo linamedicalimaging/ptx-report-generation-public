@@ -10,6 +10,12 @@ Users need authorized local access to:
 - CheXpert Plus;
 - the original CXPMRG-Bench/MambaXray-VL code and checkpoints, subject to the original authors' license and distribution terms.
 
+IU X-ray/Open-i was considered during dataset construction but was not included in the final PTX-focused splits.
+
+Dataset links and recommended citations are listed in:
+
+- [DATA_SOURCES.md](DATA_SOURCES.md)
+
 Original codebase:
 
 https://github.com/Event-AHU/Medical_Image_Analysis
@@ -32,4 +38,3 @@ https://github.com/Event-AHU/Medical_Image_Analysis
 The PTX-focused primary analysis uses a balanced 592-case test set constructed from MIMIC-CXR-JPG and CheXpert Plus.
 
 The public repository should provide reconstruction logic, not the restricted reports or images themselves.
-

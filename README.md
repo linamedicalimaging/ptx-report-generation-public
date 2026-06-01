@@ -48,9 +48,13 @@ Users must obtain access to the original datasets from their official providers 
 
 ## Datasets
 
-The study uses MIMIC-CXR-JPG and CheXpert Plus. IU X-ray was considered but excluded from the PTX-focused split construction because too few PTX-positive patients remained after patient-level processing and author-test exclusion.
+The study uses MIMIC-CXR-JPG and CheXpert Plus. IU X-ray/Open-i was considered but excluded from the PTX-focused split construction because too few PTX-positive patients remained after patient-level processing and author-test exclusion.
 
 Dataset access is controlled by the original dataset providers. This repository provides code and documentation only.
+
+Dataset links, recommended citations, and redistribution boundaries are listed in:
+
+- [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md)
 
 ## Evaluation Framework
 
@@ -78,4 +82,3 @@ This repository supports two related studies:
 Please cite the original CXPMRG-Bench/MambaXray-VL paper and repository when using the reproduced framework or author-provided checkpoints.
 
 Citation details for our PTX-focused study will be added after manuscript preparation.
-
