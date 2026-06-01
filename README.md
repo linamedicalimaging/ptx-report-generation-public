@@ -56,6 +56,16 @@ Dataset links, recommended citations, and redistribution boundaries are listed i
 
 - [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md)
 
+## Data Preparation Scripts
+
+Public-safe data preparation scripts are provided in:
+
+- [scripts/data](scripts/data)
+
+These scripts are parameterized and do not contain private paths or dataset
+content. They reconstruct the workflow locally when the user supplies authorized
+dataset files.
+
 ## Evaluation Framework
 
 The evaluation is based on a strict ground-truth-only rule:
@@ -69,6 +79,11 @@ The evaluation separates:
 - PTX primary scoring: present, side, location, extent;
 - Global secondary scoring: major/minor true findings and major/minor false findings;
 - best-model selection: PTX-best and Global-best with explicit tie-break rules.
+
+The public evaluation protocol and PTX terminology mapping are documented in:
+
+- [docs/EVALUATION_PROTOCOL.md](docs/EVALUATION_PROTOCOL.md)
+- [docs/PTX_TERMINOLOGY.md](docs/PTX_TERMINOLOGY.md)
 
 ## Planned Papers
 

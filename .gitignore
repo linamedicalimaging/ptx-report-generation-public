@@ -12,7 +12,7 @@ env/
 ~$*
 
 # Restricted or large data
-data/
+/data/
 images/
 test_images/
 checkpoints/
@@ -36,4 +36,3 @@ results/
 *.log
 *.out
 *.synctex.gz
-
